@@ -1,0 +1,35 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://d124qsjq73iaj"
+path="res://.godot/imported/plantA_desert.gltf.glb-f7ca6c031ac31bacb7e8d57fe514c8b8.scn"
+
+[deps]
+
+source_file="res://assets/tiles/desert/plantA_desert.gltf.glb"
+dest_files=["res://.godot/imported/plantA_desert.gltf.glb-f7ca6c031ac31bacb7e8d57fe514c8b8.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:plantA_desert": {
+"generate/physics": true,
+"physics/shape_type": 1
+}
+}
+}
