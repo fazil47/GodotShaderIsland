@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://ri43rdufxcs3"]
+[gd_scene load_steps=2 format=3]
 
-[ext_resource type="MeshLibrary" uid="uid://di40brs3rjxd5" path="res://assets/tiles/desert/desert_tiles_with_colliders.meshlib" id="1_0qhim"]
+[ext_resource type="MeshLibrary" path="res://assets/kayKit_mini_game_variety_pack/tiles/desert/desert_tiles_with_colliders.meshlib" id="1_0qhim"]
 
 [node name="Desert" type="Node3D"]
 

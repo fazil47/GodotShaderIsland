@@ -1,0 +1,34 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cuuc3oy6up84w"
+path="res://.godot/imported/wallDecorationA.gltf.glb-f4a41d4a3c9ae1e0b40630cdeef51dca.scn"
+
+[deps]
+
+source_file="res://assets/kayKit_dungeon_pack/walls/wallDecorationA.gltf.glb"
+dest_files=["res://.godot/imported/wallDecorationA.gltf.glb-f4a41d4a3c9ae1e0b40630cdeef51dca.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:wallDecorationA": {
+"generate/physics": true
+}
+}
+}

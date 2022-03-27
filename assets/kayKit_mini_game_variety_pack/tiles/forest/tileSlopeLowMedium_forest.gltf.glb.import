@@ -1,0 +1,34 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bkbletspvdg0h"
+path="res://.godot/imported/tileSlopeLowMedium_forest.gltf.glb-cd30c36a0705d5f9e009da92673ce7f7.scn"
+
+[deps]
+
+source_file="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileSlopeLowMedium_forest.gltf.glb"
+dest_files=["res://.godot/imported/tileSlopeLowMedium_forest.gltf.glb-cd30c36a0705d5f9e009da92673ce7f7.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:tileSlopeLowMedium_forest": {
+"generate/physics": true
+}
+}
+}
