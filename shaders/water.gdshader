@@ -1,5 +1,7 @@
 shader_type spatial;
 
+uniform vec4 water_color: hint_color = vec4(0, 0.3, 0.9, 1);
+
 uniform vec2 amplitude = vec2(0.1, 0.1);
 uniform vec2 time_factor = vec2(0.1, 0.1);
 
@@ -16,5 +18,6 @@ void vertex() {
 }
 
 void fragment() {
-
+	ALBEDO = water_color.rgb;
+	ALPHA = water_color.a;
 }
