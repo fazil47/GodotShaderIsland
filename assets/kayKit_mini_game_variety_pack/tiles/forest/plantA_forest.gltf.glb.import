@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://g6xa7veh2gp8"
+uid="uid://be1v73u15sddp"
 path="res://.godot/imported/plantA_forest.gltf.glb-0f6e1334cf866157faaa2f4a8513b865.scn"
 
 [deps]
@@ -28,7 +28,6 @@ import_script/path=""
 _subresources={
 "nodes": {
 "PATH:plantA_forest": {
-"generate/physics": true,
 "physics/shape_type": 1
 }
 }

@@ -1,0 +1,59 @@
+[gd_scene load_steps=15 format=3 uid="uid://vt8c64ta2fao"]
+
+[ext_resource type="PackedScene" uid="uid://ducgft5lsbcsy" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/detail_forest.gltf.glb" id="1_5k530"]
+[ext_resource type="PackedScene" uid="uid://be1v73u15sddp" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/plantA_forest.gltf.glb" id="2_8igno"]
+[ext_resource type="PackedScene" uid="uid://b3213ksxwhp33" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/plantB_forest.gltf.glb" id="3_mcc27"]
+[ext_resource type="PackedScene" uid="uid://c8x14l6c2cm1j" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/rocksA_forest.gltf.glb" id="4_vk7ls"]
+[ext_resource type="PackedScene" uid="uid://bwy5i7xb16f17" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/rocksB_forest.gltf.glb" id="5_d2aej"]
+[ext_resource type="PackedScene" uid="uid://b00lckwk01vpq" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileHigh_forest.gltf.glb" id="6_68v5n"]
+[ext_resource type="PackedScene" uid="uid://cak08k2jmvqne" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileLarge_forest.gltf.glb" id="7_rc7si"]
+[ext_resource type="PackedScene" uid="uid://dy5c40gxa8xum" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileLow_forest.gltf.glb" id="8_6vmib"]
+[ext_resource type="PackedScene" uid="uid://bbac6a40d24pq" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileMedium_forest.gltf.glb" id="9_eln7u"]
+[ext_resource type="PackedScene" uid="uid://dmnqgneo1ncdp" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileSlopeLowHigh_forest.gltf.glb" id="10_xqqhq"]
+[ext_resource type="PackedScene" uid="uid://bkbletspvdg0h" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileSlopeLowMedium_forest.gltf.glb" id="11_bbfi7"]
+[ext_resource type="PackedScene" uid="uid://g6vj1g8l44ng" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileSlopeMediumHigh_forest.gltf.glb" id="12_6exvp"]
+[ext_resource type="PackedScene" uid="uid://4bsxw6aritno" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileSmall_forest.gltf.glb" id="13_6w2o1"]
+[ext_resource type="PackedScene" uid="uid://cibpwb8xr5dxi" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tree_forest.gltf.glb" id="14_bna6l"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="detail_forestgltf" parent="." instance=ExtResource( "1_5k530" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="plantA_forestgltf" parent="." instance=ExtResource( "2_8igno" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+
+[node name="plantB_forestgltf" parent="." instance=ExtResource( "3_mcc27" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14)
+
+[node name="rocksA_forestgltf" parent="." instance=ExtResource( "4_vk7ls" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+
+[node name="rocksB_forestgltf" parent="." instance=ExtResource( "5_d2aej" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="tileHigh_forestgltf" parent="." instance=ExtResource( "6_68v5n" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, 0)
+
+[node name="tileLarge_forestgltf" parent="." instance=ExtResource( "7_rc7si" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 0)
+
+[node name="tileLow_forestgltf" parent="." instance=ExtResource( "8_6vmib" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0, 0)
+
+[node name="tileMedium_forestgltf" parent="." instance=ExtResource( "9_eln7u" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 0)
+
+[node name="tileSlopeLowHigh_forestgltf" parent="." instance=ExtResource( "10_xqqhq" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0)
+
+[node name="tileSlopeLowMedium_forestgltf" parent="." instance=ExtResource( "11_bbfi7" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 0)
+
+[node name="tileSlopeMediumHigh_forestgltf" parent="." instance=ExtResource( "12_6exvp" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31, 0, 0)
+
+[node name="tileSmall_forestgltf" parent="." instance=ExtResource( "13_6w2o1" )]
+
+[node name="tree_forestgltf" parent="." instance=ExtResource( "14_bna6l" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)

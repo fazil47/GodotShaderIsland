@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ccel3nxa6snow"
+uid="uid://ducgft5lsbcsy"
 path="res://.godot/imported/detail_forest.gltf.glb-4630305dc03cc354fb085d7b346fb108.scn"
 
 [deps]
@@ -25,10 +25,4 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={
-"nodes": {
-"PATH:detail_forest": {
-"generate/physics": true
-}
-}
-}
+_subresources={}
