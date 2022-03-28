@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b0emofvt8ua3o"
+uid="uid://cpipuy56ovdut"
 path="res://.godot/imported/tileBrickB_largeCrackedB.gltf.glb-91e73564f893f6946364b1c08c9245f3.scn"
 
 [deps]
@@ -25,4 +25,11 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:tileBrickB_largeCrackedB": {
+"generate/physics": true,
+"physics/shape_type": 1
+}
+}
+}

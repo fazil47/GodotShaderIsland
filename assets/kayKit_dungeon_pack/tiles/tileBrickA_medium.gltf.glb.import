@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://3k1hp0tlw038"
+uid="uid://dcdu7xxl4sesp"
 path="res://.godot/imported/tileBrickA_medium.gltf.glb-f95bebff00e10cebfb7634f6ca2ad3ed.scn"
 
 [deps]
@@ -25,4 +25,11 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:tileBrickA_medium": {
+"generate/physics": true,
+"physics/shape_type": 1
+}
+}
+}

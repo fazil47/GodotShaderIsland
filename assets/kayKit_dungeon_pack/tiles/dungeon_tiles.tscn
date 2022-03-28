@@ -1,0 +1,55 @@
+[gd_scene load_steps=14 format=3 uid="uid://2tap1s7cgtvc"]
+
+[ext_resource type="PackedScene" uid="uid://dxr1tkqq3lxd1" path="res://assets/kayKit_dungeon_pack/tiles/stairs.gltf.glb" id="1_8k8nv"]
+[ext_resource type="PackedScene" uid="uid://dpq3lq21eat3i" path="res://assets/kayKit_dungeon_pack/tiles/stairs_wide.gltf.glb" id="2_dwdry"]
+[ext_resource type="PackedScene" uid="uid://brktsqu1fr3is" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickA_large.gltf.glb" id="3_v2qeh"]
+[ext_resource type="PackedScene" uid="uid://dcdu7xxl4sesp" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickA_medium.gltf.glb" id="4_lllw0"]
+[ext_resource type="PackedScene" uid="uid://1gyo2gyjjqn6" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickA_small.gltf.glb" id="5_3368f"]
+[ext_resource type="PackedScene" uid="uid://cpu2lviddqilg" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickB_large.gltf.glb" id="6_7kukd"]
+[ext_resource type="PackedScene" uid="uid://bqmg2uql4wdm0" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickB_largeCrackedA.gltf.glb" id="7_cy1mx"]
+[ext_resource type="PackedScene" uid="uid://cpipuy56ovdut" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickB_largeCrackedB.gltf.glb" id="8_3y0pf"]
+[ext_resource type="PackedScene" uid="uid://xbdbdmp4emu1" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickB_medium.gltf.glb" id="9_bkelq"]
+[ext_resource type="PackedScene" uid="uid://dx7h76xyowyvv" path="res://assets/kayKit_dungeon_pack/tiles/tileBrickB_small.gltf.glb" id="10_sf50a"]
+[ext_resource type="PackedScene" uid="uid://b7fdhosftnwln" path="res://assets/kayKit_dungeon_pack/tiles/tileSpikes.gltf.glb" id="11_0djgv"]
+[ext_resource type="PackedScene" uid="uid://cxepx3o8cb3n3" path="res://assets/kayKit_dungeon_pack/tiles/tileSpikes_large.gltf.glb" id="12_u7nci"]
+[ext_resource type="PackedScene" uid="uid://bom5v8pqe1l5t" path="res://assets/kayKit_dungeon_pack/tiles/tileSpikes_shallow.gltf.glb" id="13_03de7"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="tileBrickA_largegltf" parent="." instance=ExtResource( "3_v2qeh" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, 0)
+
+[node name="tileBrickA_mediumgltf" parent="." instance=ExtResource( "4_lllw0" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0)
+
+[node name="tileBrickA_smallgltf" parent="." instance=ExtResource( "5_3368f" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+
+[node name="tileBrickB_largegltf" parent="." instance=ExtResource( "6_7kukd" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+
+[node name="tileBrickB_largeCrackedAgltf" parent="." instance=ExtResource( "7_cy1mx" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 8)
+
+[node name="tileBrickB_largeCrackedBgltf" parent="." instance=ExtResource( "8_3y0pf" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 8)
+
+[node name="tileBrickB_mediumgltf" parent="." instance=ExtResource( "9_bkelq" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, 8)
+
+[node name="tileBrickB_smallgltf" parent="." instance=ExtResource( "10_sf50a" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 8)
+
+[node name="tileSpikesgltf" parent="." instance=ExtResource( "11_0djgv" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8)
+
+[node name="tileSpikes_largegltf" parent="." instance=ExtResource( "12_u7nci" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -8)
+
+[node name="tileSpikes_shallowgltf" parent="." instance=ExtResource( "13_03de7" )]
+
+[node name="stairs_widegltf" parent="." instance=ExtResource( "2_dwdry" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 0)
+
+[node name="stairsgltf" parent="." instance=ExtResource( "1_8k8nv" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)

@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b73iaumvskcba"
+uid="uid://bom5v8pqe1l5t"
 path="res://.godot/imported/tileSpikes_shallow.gltf.glb-4b0a3af5ea92575d8249b8aadf30e89b.scn"
 
 [deps]
@@ -25,4 +25,11 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:tileSpikes_shallow": {
+"generate/physics": true,
+"physics/shape_type": 1
+}
+}
+}

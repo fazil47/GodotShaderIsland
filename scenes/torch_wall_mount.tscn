@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxd0ko064g3xo"]
+
+[ext_resource type="PackedScene" uid="uid://u2q0sx7n7w2u" path="res://assets/kayKit_dungeon_pack/items/torchWall.gltf.glb" id="1_4nw6e"]
+
+[node name="TorchWallMount" type="Node3D"]
+
+[node name="torchWallgltf" parent="." instance=ExtResource( "1_4nw6e" )]

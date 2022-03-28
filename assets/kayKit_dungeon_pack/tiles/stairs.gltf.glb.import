@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://djccotnl2kthj"
+uid="uid://dxr1tkqq3lxd1"
 path="res://.godot/imported/stairs.gltf.glb-fb16fd2f8a93b2e568eebd92caf1dfdf.scn"
 
 [deps]
@@ -25,4 +25,12 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:stairs": {
+"decomposition/precision": 1,
+"generate/physics": true,
+"physics/shape_type": 2
+}
+}
+}
