@@ -45,5 +45,5 @@ func _physics_process(delta):
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
 		if event.relative.x != 0:
-			rotate_object_local(Vector3.UP, event.relative.x * look_speed.x)
+			rotate_object_local(Vector3.UP, -event.relative.x * look_speed.x)
 

@@ -1,7 +1,10 @@
 shader_type spatial;
+render_mode unshaded;
+
+void vertex() {
+}
 
 void fragment() {
-	// Place fragment code here.
-	ALBEDO = vec3(0, 0.3, 1);
-	ALPHA = 0.6;
+	ALBEDO = vec3(0, 0.5, 1);
+	ALPHA = 0.5;
 }

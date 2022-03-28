@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://u2q0sx7n7w2u"
+uid="uid://x5bvox23o786"
 path="res://.godot/imported/torchWall.gltf.glb-bd8738b9fb83877dc9578336bc089aa8.scn"
 
 [deps]
@@ -25,4 +25,10 @@ skins/use_named_skins=true
 animation/import=true
 animation/fps=30
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:torchWall": {
+"generate/physics": true
+}
+}
+}
