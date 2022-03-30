@@ -1,12 +1,15 @@
 shader_type spatial;
 
-uniform vec4 water_color: hint_color = vec4(0, 0.3, 0.9, 1);
-
-uniform vec2 amplitude = vec2(0.1, 0.1);
+uniform vec4 water_color: hint_color = vec4(0.2, 0.6, 0.95, 1);
+uniform vec2 amplitude = vec2(0.01, 0.01);
 uniform vec2 time_factor = vec2(0.1, 0.1);
 
+float rand(vec2 co) {
+    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+
 float height(vec2 pos, float time) {
-	return ( amplitude.x * sin(pos.x * time * time_factor.x) ) + ( amplitude.y * cos(pos.y * time * time_factor.y) );
+	return sin((rand(pos) * 2.0) - 1.0) * (  amplitude.x * sin(pos.x * time * time_factor.x) ) + ( amplitude.y * cos(pos.y * time * time_factor.y) );
 }
 
 void vertex() {
@@ -20,4 +23,6 @@ void vertex() {
 void fragment() {
 	ALBEDO = water_color.rgb;
 	ALPHA = water_color.a;
+	METALLIC = 0.0;
+	ROUGHNESS = 0.1;
 }
