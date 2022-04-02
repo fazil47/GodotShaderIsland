@@ -9,5 +9,4 @@ void fragment() {
 	ALBEDO = COLOR.rgb;
 	EMISSION = COLOR.rgb;
 	ALPHA = COLOR.a;
-	DEPTH = 0.0;
 }
