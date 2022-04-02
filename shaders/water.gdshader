@@ -1,8 +1,8 @@
 shader_type spatial;
 
 uniform vec4 water_color: hint_color = vec4(0.2, 0.6, 0.95, 1);
-uniform vec2 amplitude = vec2(0.01, 0.01);
-uniform vec2 time_factor = vec2(0.1, 0.1);
+uniform vec2 amplitude = vec2(0.015, 0.015);
+uniform vec2 time_factor = vec2(0.12, 0.12);
 
 float rand(vec2 co) {
     return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
@@ -22,7 +22,7 @@ void vertex() {
 
 void fragment() {
 	ALBEDO = water_color.rgb;
-	ALPHA = water_color.a;
+//	ALPHA = water_color.a;
 	METALLIC = 0.0;
 	ROUGHNESS = 0.1;
 }

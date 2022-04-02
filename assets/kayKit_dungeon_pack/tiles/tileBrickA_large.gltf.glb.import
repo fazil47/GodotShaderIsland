@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://brktsqu1fr3is"
+uid="uid://di82w7q0qhwde"
 path="res://.godot/imported/tileBrickA_large.gltf.glb-5e77147be2e43f7d92d2a9c068292486.scn"
 
 [deps]
@@ -28,8 +28,7 @@ import_script/path=""
 _subresources={
 "nodes": {
 "PATH:tileBrickA_large": {
-"generate/physics": true,
-"physics/shape_type": 1
+"generate/physics": true
 }
 }
 }

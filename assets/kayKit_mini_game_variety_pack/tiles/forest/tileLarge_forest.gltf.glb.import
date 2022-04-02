@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cak08k2jmvqne"
+uid="uid://cbg5ex51xbutj"
 path="res://.godot/imported/tileLarge_forest.gltf.glb-dac6b44dda16d5960eab3a9d057dfe55.scn"
 
 [deps]
@@ -29,7 +29,23 @@ _subresources={
 "nodes": {
 "PATH:tileLarge_forest": {
 "generate/physics": true,
-"physics/shape_type": 1
+"physics/shape_type": 2
 }
 }
 }
+blender/nodes/visible=2
+blender/nodes/punctual_lights=true
+blender/nodes/cameras=true
+blender/nodes/custom_properties=true
+blender/nodes/modifiers=1
+blender/meshes/colors=false
+blender/meshes/uvs=true
+blender/meshes/normals=true
+blender/meshes/tangents=true
+blender/meshes/skins=2
+blender/meshes/export_bones_deforming_mesh_only=false
+blender/materials/unpack_enabled=true
+blender/materials/export_materials=1
+blender/animation/limit_playback=true
+blender/animation/always_sample=true
+blender/animation/group_tracks=true

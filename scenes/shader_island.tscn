@@ -6,10 +6,10 @@
 [ext_resource type="Material" uid="uid://d3mg6ams7i626" path="res://materials/water.material" id="4_i78xr"]
 [ext_resource type="MeshLibrary" uid="uid://dhee463eeyuc8" path="res://assets/kayKit_dungeon_pack/tiles/dungeon_tiles.meshlib" id="5_03kps"]
 [ext_resource type="PackedScene" uid="uid://dlj16hqcyvka2" path="res://scenes/torch.tscn" id="6_koten"]
-[ext_resource type="PackedScene" uid="uid://cak08k2jmvqne" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileLarge_forest.gltf.glb" id="7_od0di"]
+[ext_resource type="PackedScene" uid="uid://cbg5ex51xbutj" path="res://assets/kayKit_mini_game_variety_pack/tiles/forest/tileLarge_forest.gltf.glb" id="7_od0di"]
 [ext_resource type="PackedScene" uid="uid://waewgkjx2sxh" path="res://scenes/torch_fire.tscn" id="7_v52tb"]
 [ext_resource type="PackedScene" uid="uid://cbie6oo05jvxx" path="res://assets/kayKit_dungeon_pack/items/torch.gltf.glb" id="8_7u4qq"]
-[ext_resource type="PackedScene" uid="uid://c7eqxdnltiei3" path="res://scenes/fire.tscn" id="9_2xua8"]
+[ext_resource type="PackedScene" uid="uid://bmuqx5kwi0ty8" path="res://scenes/firepit_fire.tscn" id="11_r32ji"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1pl53"]
 sky_top_color = Color(0.596078, 0.584314, 0.505882, 1)
@@ -99,7 +99,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.432, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34, 0, -34)
 
 [node name="TorchFire" parent="WallTorches/Torch4" instance=ExtResource( "7_v52tb" )]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.431855, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.432, 0)
 
 [node name="Ramps" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
@@ -127,5 +127,5 @@ transform = Transform3D(1, 0, 0, 0, 0.866025, -1.25, 0, 0.5, 2.16506, 0, 0, 23.9
 [node name="Firepit" parent="." instance=ExtResource( "8_7u4qq" )]
 transform = Transform3D(4, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0.346211, 0)
 
-[node name="Fire" parent="Firepit" instance=ExtResource( "9_2xua8" )]
-transform = Transform3D(0.25, 0, 0, 0, 0.5, 0, 0, 0, 0.25, 0, 0.494182, 0)
+[node name="TorchFire" parent="Firepit" instance=ExtResource( "11_r32ji" )]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.439095, 0)

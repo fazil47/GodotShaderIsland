@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://waewgkjx2sxh"]
+[gd_scene load_steps=9 format=3 uid="uid://bmuqx5kwi0ty8"]
 
 [ext_resource type="Shader" path="res://shaders/fire.gdshader" id="1_ncpk1"]
 
@@ -8,10 +8,11 @@ shader = ExtResource( "1_ncpk1" )
 
 [sub_resource type="Gradient" id="Gradient_rxrh1"]
 offsets = PackedFloat32Array(0, 0.0472103, 0.227468, 1)
-colors = PackedColorArray(0.980392, 0.8, 0, 0, 1, 0.780392, 0, 1, 0.992157, 0.419608, 0, 0.835294, 1, 0.0588235, 0, 0)
+colors = PackedColorArray(0.980392, 0.8, 0, 0, 1, 0.780392, 0, 1, 0.992157, 0.419608, 0, 1, 1, 0.0588235, 0, 0)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_sk7h2"]
 gradient = SubResource( "Gradient_rxrh1" )
+width = 128
 
 [sub_resource type="Curve" id="Curve_56vh6"]
 _data = [Vector2(0, 1), 0.0, -0.119347, 0, 0, Vector2(1, 0), -2.1157, 0.0, 0, 0]
@@ -34,8 +35,8 @@ scale_curve = SubResource( "CurveTexture_3kv1x" )
 color_ramp = SubResource( "GradientTexture1D_sk7h2" )
 
 [sub_resource type="SphereMesh" id="SphereMesh_fjyk2"]
-radius = 0.2
-height = 0.4
+radius = 0.5
+height = 1.0
 
 [node name="TorchFire" type="GPUParticles3D"]
 material_override = SubResource( "ShaderMaterial_u0ufm" )
@@ -46,5 +47,8 @@ process_material = SubResource( "ParticlesMaterial_r7rch" )
 draw_pass_1 = SubResource( "SphereMesh_fjyk2" )
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-light_color = Color(1, 0.568627, 0, 1)
+light_color = Color(1, 0.619608, 0, 1)
 light_energy = 2.0
+light_size = 0.05
+shadow_enabled = true
+omni_range = 10.0
