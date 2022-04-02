@@ -3,7 +3,7 @@
 [ext_resource type="Shader" path="res://shaders/fire.gdshader" id="1_ncpk1"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_u0ufm"]
-render_priority = 0
+render_priority = 1
 shader = ExtResource( "1_ncpk1" )
 
 [sub_resource type="Gradient" id="Gradient_rxrh1"]
@@ -38,8 +38,9 @@ color_ramp = SubResource( "GradientTexture1D_sk7h2" )
 radius = 0.5
 height = 1.0
 
-[node name="TorchFire" type="GPUParticles3D"]
+[node name="FirepitFire" type="GPUParticles3D"]
 material_override = SubResource( "ShaderMaterial_u0ufm" )
+cast_shadow = 0
 amount = 9
 speed_scale = 0.5
 local_coords = false
@@ -47,8 +48,9 @@ process_material = SubResource( "ParticlesMaterial_r7rch" )
 draw_pass_1 = SubResource( "SphereMesh_fjyk2" )
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.420222, 0)
 light_color = Color(1, 0.619608, 0, 1)
-light_energy = 2.0
+light_energy = 10.0
 light_size = 0.05
 shadow_enabled = true
-omni_range = 10.0
+omni_range = 36.0
